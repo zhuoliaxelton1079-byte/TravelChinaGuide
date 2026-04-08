@@ -6,17 +6,17 @@ This project is a static, interactive resource guide for students preparing for 
 
 - Pre-departure overview and action milestones
 - Visa and document guidance section
-- Interactive packing checklist with local persistence
+- Interactive action checklist with local persistence
 - Basic Mandarin phrase cards
 - Emergency resource section
-- Download links to source documents
+- Source document references
 
 ## Project Structure
 
 - `index.html`: Main guide page
 - `styles.css`: Site styling and responsive layout
 - `script.js`: Checklist + phrase-card interactivity
-- `data/packing-checklist.json`: Checklist categories and items
+- `data/action-checklist.json`: Action checklist categories and items
 - `data/phrases.json`: Phrase card content
 - `404.html`: GitHub Pages not-found page
 - `China Packing List.docx`: Uploaded source document

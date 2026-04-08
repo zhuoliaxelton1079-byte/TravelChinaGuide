@@ -1,4 +1,4 @@
-const checklistUrl = "data/packing-checklist.json";
+const checklistUrl = "data/action-checklist.json";
 const phrasesUrl = "data/phrases.json";
 const checklistKey = "china-study-checklist-v1";
 

@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Travel Approval",
+    "items": [
+      "Confirm passport validity",
+      "Complete visa paperwork and required copies",
+      "Save flight and itinerary confirmations",
+      "Confirm travel insurance coverage",
+      "Store backup ID separately from passport"
+    ]
+  },
+  {
+    "category": "Money & Phone Setup",
+    "items": [
+      "Call card issuer about international fees",
+      "Call phone provider about international usage",
+      "Install Alipay",
+      "Install WeChat",
+      "Set up DiDi or local transportation apps"
+    ]
+  },
+  {
+    "category": "Health & Safety",
+    "items": [
+      "Pack prescription medication in original containers",
+      "Prepare a small health kit",
+      "Save emergency contacts in phone and on paper",
+      "Plan for safe drinking water",
+      "Review program safety guidance"
+    ]
+  },
+  {
+    "category": "Technology Readiness",
+    "items": [
+      "Set up VPN access if needed",
+      "Download an offline translation app",
+      "Pack chargers and a power adapter",
+      "Pack a power bank",
+      "Download course or travel files for offline access"
+    ]
+  },
+  {
+    "category": "Before Departure Week",
+    "items": [
+      "Review itinerary by date and city",
+      "Share trip details with family",
+      "Confirm meeting time for departure day",
+      "Check weather and adjust clothing plans",
+      "Prepare one carry-on with essentials"
+    ]
+  },
+  {
+    "category": "On the Ground",
+    "items": [
+      "Carry only essential valuables each day",
+      "Keep group contacts accessible",
+      "Stay aware of local transportation plan",
+      "Use cashless payment apps when possible",
+      "Keep reflection notes on visits and lectures"
+    ]
+  }
+]
