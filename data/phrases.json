@@ -1,0 +1,32 @@
+[
+  {
+    "chinese": "你好",
+    "pinyin": "ni hao",
+    "english": "Hello"
+  },
+  {
+    "chinese": "谢谢",
+    "pinyin": "xie xie",
+    "english": "Thank you"
+  },
+  {
+    "chinese": "请问厕所在哪里？",
+    "pinyin": "qing wen ce suo zai na li",
+    "english": "Excuse me, where is the restroom?"
+  },
+  {
+    "chinese": "这个多少钱？",
+    "pinyin": "zhe ge duo shao qian",
+    "english": "How much is this?"
+  },
+  {
+    "chinese": "我听不懂",
+    "pinyin": "wo ting bu dong",
+    "english": "I do not understand"
+  },
+  {
+    "chinese": "请慢一点说",
+    "pinyin": "qing man yi dian shuo",
+    "english": "Please speak more slowly"
+  }
+]

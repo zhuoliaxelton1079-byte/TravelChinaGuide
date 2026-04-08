@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>China Study Abroad Prep Guide</title>
+  <meta name="description" content="Interactive prep guide for students joining a two-week study abroad course in China." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">UWGB Study Abroad</p>
+    <h1>China Course Prep Guide</h1>
+    <p class="hero-copy">A practical, student-first resource to prepare for two weeks in China. Use the checklist, learn key phrases, and keep critical travel documents in one place.</p>
+    <a class="hero-cta" href="#checklist">Start Your Preparation</a>
+  </header>
+
+  <nav class="main-nav" aria-label="Primary">
+    <a href="#overview">Overview</a>
+    <a href="#visa">Visa & Documents</a>
+    <a href="#checklist">Packing Tool</a>
+    <a href="#phrases">Phrase Cards</a>
+    <a href="#emergency">Emergency</a>
+  </nav>
+
+  <main>
+    <section id="overview" class="panel">
+      <h2>Pre-Departure Overview</h2>
+      <p>Use this guide as your week-by-week prep workspace. Complete the essentials first: passport, visa, health planning, then packing and communication tools.</p>
+      <div class="chip-row" aria-label="Preparation milestones">
+        <span class="chip">Passport Validity</span>
+        <span class="chip">Visa Application</span>
+        <span class="chip">Insurance Confirmation</span>
+        <span class="chip">Emergency Contacts</span>
+      </div>
+    </section>
+
+    <section id="visa" class="panel">
+      <h2>Visa & Document Guidance</h2>
+      <p>This section should reflect your program's official requirements and deadlines. Replace placeholder items with verified instructions from your uploaded sources and university office.</p>
+      <ul>
+        <li>Check passport expiration date (minimum validity per program policy).</li>
+        <li>Prepare required visa forms and supporting documents.</li>
+        <li>Save digital and printed copies of key travel paperwork.</li>
+        <li>Carry emergency contact sheet in your day bag and phone.</li>
+      </ul>
+      <div class="source-docs">
+        <a href="China Packing List.docx" download>Download: China Packing List (DOCX)</a>
+        <a href="ItineraryOnly (1).pdf" download>Download: Program Itinerary (PDF)</a>
+      </div>
+    </section>
+
+    <section id="checklist" class="panel">
+      <div class="section-head">
+        <h2>Packing Checklist Tool</h2>
+        <button id="reset-checklist" type="button">Reset</button>
+      </div>
+      <p>Track progress locally on your device. Your checkmarks are saved automatically.</p>
+      <div id="checklist-container" class="checklist-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="phrases" class="panel">
+      <h2>Basic Mandarin Phrase Cards</h2>
+      <p>Tap through key phrases for transit, meals, and respectful daily interactions.</p>
+      <article id="phrase-card" class="phrase-card" aria-live="polite">
+        <p class="label">Chinese</p>
+        <p id="phrase-chinese" class="phrase-main"></p>
+        <p id="phrase-pinyin" class="phrase-sub"></p>
+        <p id="phrase-english" class="phrase-translation"></p>
+      </article>
+      <div class="phrase-controls">
+        <button id="prev-phrase" type="button">Previous</button>
+        <button id="next-phrase" type="button">Next</button>
+      </div>
+    </section>
+
+    <section id="emergency" class="panel">
+      <h2>Emergency Resources</h2>
+      <p>Use official university and in-country resources first. Confirm all numbers before departure.</p>
+      <div class="emergency-grid">
+        <article>
+          <h3>University Contact</h3>
+          <p>Program Leader: Add name and phone</p>
+          <p>Study Abroad Office: Add direct number</p>
+        </article>
+        <article>
+          <h3>In-Country Essentials</h3>
+          <p>Nearest hospital to accommodation</p>
+          <p>Local emergency numbers and embassy details</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Last updated: April 8, 2026</p>
+    <p>Built for student preparation and field-ready planning.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
